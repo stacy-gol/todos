@@ -1,14 +1,16 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import Todo from './index';
-
-const mockTodo = {
-  id: 1,
-  title: 'Test Task',
-  text: 'This is a test',
-  isDone: false,
-};
+import '@testing-library/jest-dom';
+import { TodoItem } from '../../types';
 
 describe('Todo component', () => {
+  const mockTodo: TodoItem = {
+    id: 1,
+    title: 'Test Task',
+    text: 'This is a test',
+    isDone: false
+  };
+
   it('renders title and text', () => {
     render(
       <Todo
