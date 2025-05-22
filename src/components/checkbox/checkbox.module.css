@@ -1,0 +1,16 @@
+.checkbox {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+}
+
+.icon {
+  color: var(--custom-primary, #1976d2);
+  text-align: center;
+  width: 18px;
+  height: 18px;
+  margin: auto;
+}

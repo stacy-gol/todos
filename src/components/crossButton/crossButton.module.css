@@ -1,0 +1,6 @@
+.deleteButton {
+width: 24px;
+height: 24px;
+background: url('../../../public/deleteButton.svg'), white 50% / contain no-repeat;
+}
+

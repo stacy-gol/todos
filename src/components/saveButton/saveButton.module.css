@@ -1,0 +1,6 @@
+.saveButton {
+width: 24px;
+height: 24px;
+flex-shrink: 0;
+background: url('../../../public/saveButton.svg'), white 50% / contain no-repeat;
+}
